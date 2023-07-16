@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp1"
+    Shell.FlyoutBehavior="Disabled">
+
+    <Shell.FlyoutHeader>
+        <StackLayout HeightRequest="100" BackgroundColor="Black">
+            <Label Text="Meni"
+               FontSize="Large"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               TextColor="White"
+               TextDecorations="Underline"
+               FontAttributes="Bold"
+               />
+        </StackLayout>
+    </Shell.FlyoutHeader>
+
+    <ShellContent 
+        Title="Konverter"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+    <ShellContent
+        Title="Kursna Lista"
+        ContentTemplate="{DataTemplate local:ExchangeRateList}"
+        Route="ExchangeRateList" />
+
+    <Shell.FlyoutFooter >
+        <StackLayout BackgroundColor="Black">
+            <Label
+            Text="RAMU 2023"
+            HorizontalOptions="CenterAndExpand"
+            TextColor="White"
+            />
+            <Label
+            Text="Belmin Hadrovic"
+            HorizontalOptions="CenterAndExpand"
+            TextColor="White"
+            />
+
+        </StackLayout>
+        
+            
+    </Shell.FlyoutFooter>
+
+</Shell>

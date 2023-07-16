@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.ExchangeRateList"
+             Shell.FlyoutBehavior="Flyout"
+             BackgroundColor="DimGray"
+             Title="Kursna Lista">
+    
+    <ScrollView>
+
+        <VerticalStackLayout Spacing="50" Padding="20,20,20,20" >
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="10" VerticalOptions="Center" >
+                <Image Source="flag_bih.png" HeightRequest="50"/>
+                <Label  FontAttributes="Bold"
+                   Text="BAM: "
+                    x:Name="BAM"
+                    HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="10" VerticalOptions="Center" >
+                <Image Source="flag_usa.png" HeightRequest="50"/>
+                <Label FontAttributes="Bold"
+                   Text="USD: "
+                    x:Name="USD"
+                    HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="10" VerticalOptions="Center" >
+                <Image Source="flag_uae.png" HeightRequest="50"/>
+                <Label FontAttributes="Bold"
+                   Text="UAD: "
+                    x:Name="UAD"
+                    HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="10" VerticalOptions="Center" >
+                <Image Source="flag_kuwait.png" HeightRequest="50"/>
+                <Label FontAttributes="Bold"
+                   Text="KWD: "
+                    x:Name="KWD"
+                    HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="10" VerticalOptions="Center" >
+                <Image Source="flag_bahrain.png" HeightRequest="50"/>
+                <Label FontAttributes="Bold"
+                   Text="BHD: "
+                    x:Name="BHD"
+                    HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="10" VerticalOptions="Center" >
+                <Image Source="flag_gbp.png" HeightRequest="50"/>
+                <Label FontAttributes="Bold"
+                   Text="GBP: "
+                    x:Name="GBP"
+                    HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="10" VerticalOptions="Center" >
+                <Image Source="flag_kyd.png" HeightRequest="50"/>
+                <Label FontAttributes="Bold"
+                   Text="KYD: "
+                    x:Name="KYD"
+                    HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="10" VerticalOptions="Center" >
+                <Image Source="flag_chf.png" HeightRequest="50"/>
+                <Label FontAttributes="Bold"
+                   Text="CHF: "
+                    x:Name="CHF"
+                    HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="10" VerticalOptions="Center" >
+                <Image Source="flag_japan.png" HeightRequest="50"/>
+                <Label FontAttributes="Bold"
+                   Text="JPY: "
+                    x:Name="JPY"
+                    HorizontalOptions="CenterAndExpand"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="10" VerticalOptions="Center" >
+                <Image Source="flag_canada.png" HeightRequest="50"/>
+                <Label FontAttributes="Bold"
+                   Text="CAD: "
+                    x:Name="CAD"
+                    HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="10" VerticalOptions="Center" >
+                <Image Source="flag_aud.png" HeightRequest="50"/>
+                <Label FontAttributes="Bold"
+                   Text="AUD: "
+                    x:Name="AUD"
+                    HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="10" VerticalOptions="Center" >
+                <Image Source="flag_serbia.png" HeightRequest="50"/>
+                <Label FontAttributes="Bold"
+                   Text="RSD: "
+                    x:Name="RSD"
+                    HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+    
+    
